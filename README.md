@@ -5,7 +5,7 @@
 A simple MicroPython micro:bit MicroCipher where you can create encrypted messages and then decrypt them when you share the cipher and encrypted message.
 
 ## Schematic
-![image](https://github.com/mytechnotalent/MicroPython-micro-bit-MicroEnigma/blob/main/schematic.png?raw=true)
+![image](https://github.com/mytechnotalent/MicroPython-micro-bit-MicroCipher/blob/main/schematic.png?raw=true)
 
 ## Parts
 [micro:bit](https://microbit.org/buy/?location=US&version=microbitV2)
