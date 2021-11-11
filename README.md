@@ -1,4 +1,4 @@
-![image](https://github.com/mytechnotalent/MicroPython-micro-bit-MicroEnigma/blob/main/MicroPython-micro-bit%20MicroEnigma.png?raw=true)
+![image](https://github.com/mytechnotalent/MicroPython-micro-bit-MicroCipher/blob/main/MicroPython-micro-bit%20MicroCipher.png?raw=true)
 
 # MicroPython-micro-bit
 # MicroCipher
