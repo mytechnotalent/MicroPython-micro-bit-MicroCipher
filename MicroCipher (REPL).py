@@ -31,7 +31,7 @@ class MicroCipher:
     
     def __init__(self, fast_wheel, medium_wheel, slow_wheel):
         """
-        Attrs:
+        Params:
             fast_wheel: int
             medium_wheel: int
             slow_wheel: int
