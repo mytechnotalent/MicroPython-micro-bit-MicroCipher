@@ -206,7 +206,5 @@ CIPHER: HI THERE
 CIPHER: UV OCJYN
 ```
 
-## UNDER DEVELOPMENT:  Fully interactive, non-REPL version coming soon!
-
 ## License
 [MIT License](https://github.com/mytechnotalent/MicroPython-micro-bit-MicroCipher/blob/main/LICENSE)
