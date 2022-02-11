@@ -61,7 +61,6 @@ class MicroCipher:
         for iter in range(wheel):
             new_alphabet.insert(0, new_alphabet[-1])
             new_alphabet.pop(-1)
-            
         return new_alphabet
         
     def inverse_permutation(self, wheel):
@@ -76,7 +75,6 @@ class MicroCipher:
         for iter in range(wheel):
             new_alphabet.append(new_alphabet[0])
             new_alphabet.pop(0)
-            
         return new_alphabet
 
     def cipher(self, text):
