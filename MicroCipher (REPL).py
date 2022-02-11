@@ -61,6 +61,7 @@ class MicroCipher:
         for iter in range(wheel):
             new_alphabet.insert(0, new_alphabet[-1])
             new_alphabet.pop(-1)
+            
         return new_alphabet
         
     def inverse_permutation(self, wheel):
@@ -75,6 +76,7 @@ class MicroCipher:
         for iter in range(wheel):
             new_alphabet.append(new_alphabet[0])
             new_alphabet.pop(0)
+            
         return new_alphabet
 
     def cipher(self, text):
@@ -108,6 +110,7 @@ class MicroCipher:
                 temp_letter = self.inverse_permutation(self.fast_wheel)[self.alphabet.index(temp_letter)]
                 # append temp letter to cipher text
                 cipher_text.append(temp_letter)
+           
             # wheel rotation algorithm
             self.fast_wheel += 1
             if self.fast_wheel % len(self.alphabet) == 0:
@@ -117,9 +120,11 @@ class MicroCipher:
                     self.alphabet) - 1:
                 self.slow_wheel += 1
                 self.medium_wheel = 1
+                
         upper_cipher_text = '' 
         for letter in cipher_text: 
             upper_cipher_text += letter  
+            
         return ''.join(upper_cipher_text.upper())
 
 
@@ -129,19 +134,24 @@ while True:
         if fast_wheel < 1 or fast_wheel > 26:
             print('Please enter a value from 1 to 26...')
             break
+            
         medium_wheel = int(input('MEDIUM WHEEL: '))
         if medium_wheel < 1 or medium_wheel > 26:
             print('Please enter a value from 1 to 26...')
             break
+            
         slow_wheel = int(input('SLOW WHEEL: '))
         if slow_wheel < 1 or slow_wheel > 26:
             print('Please enter a value from 1 to 26...')
             break
+            
         micro_cipher = MicroCipher(fast_wheel, medium_wheel, slow_wheel)
+        
         cipher = input('CIPHER: ')
         if not cipher.isupper():
             print('Please enter only capital letters...')
             break
+            
         print('CIPHER: ', end='')
         print(micro_cipher.cipher(cipher))
     except ValueError:
