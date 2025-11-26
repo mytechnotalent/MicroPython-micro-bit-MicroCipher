@@ -4,27 +4,33 @@
 # MicroCipher
 A simple MicroPython micro:bit MicroCipher where you can create encrypted messages and then decrypt them when you share the cipher and encrypted message.
 
-## Schematic
+<br>
+
+# Schematic
 ![image](https://github.com/mytechnotalent/MicroPython-micro-bit-MicroCipher/blob/main/schematic.png?raw=true)
 
-## Parts
+<br>
+
+# Parts
 [micro:bit](https://microbit.org/buy/?location=US&version=microbitV2)
 
-## STEP 1: Navigate To The FREE micro:bit Python Web Editor
+<br>
+
+# STEP 1: Navigate To The FREE micro:bit Python Web Editor
 [micro:bit Python Web Editor](https://python.microbit.org/v/2)<br>
 
-## STEP 2: Plug micro:bit V2 Into Computer
+# STEP 2: Plug micro:bit V2 Into Computer
 ***PLUG IN USB CABLE TO COMPUTER AND DEVICE***
 
-## STEP 3: Click CONNECT
+# STEP 3: Click CONNECT
 
-## STEP 4: Click "BBC micro:bit CMSIS-DAP" & CONNECT
+# STEP 4: Click "BBC micro:bit CMSIS-DAP" & CONNECT
 
-## STEP 5: Highlight Sample Code - Select All
+# STEP 5: Highlight Sample Code - Select All
 
-## STEP 6: Click Backspace On Keyboard To Delete Sample Code
+# STEP 6: Click Backspace On Keyboard To Delete Sample Code
 
-## STEP 7: Copy MicroEnigma Python Code Into Python Web Editor
+# STEP 7: Copy MicroEnigma Python Code Into Python Web Editor
 ```python
 # MIT License
 #
@@ -185,17 +191,17 @@ while True:
         break
 ```
 
-## STEP 8: Rename Script Name To MicroCipher (REPL)
+# STEP 8: Rename Script Name To MicroCipher (REPL)
 
-## STEP 9: Click Save
+# STEP 9: Click Save
 
-## STEP 10: Click Download Python Script
+# STEP 10: Click Download Python Script
 
-## STEP 11: Click Flash
+# STEP 11: Click Flash
 
-## STEP 12: Click Open Serial
+# STEP 12: Click Open Serial
 
-## STEP 13: Encrypt/Decrypt Your Message!
+# STEP 13: Encrypt/Decrypt Your Message!
 ```
 FAST WHEEL: 22
 MEDIUM WHEEL: 5
@@ -204,5 +210,7 @@ CIPHER: HI THERE
 CIPHER: UV OCJYN
 ```
 
-## License
+<br>
+
+# License
 [MIT License](https://github.com/mytechnotalent/MicroPython-micro-bit-MicroCipher/blob/main/LICENSE)
